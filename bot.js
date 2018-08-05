@@ -22,7 +22,7 @@ const resObj = {
 }
 
 client.on("ready", () => {
-  console.log("I am ready!");
+  console.log("Start");
 });
 
 client.on("message", (message) => {
