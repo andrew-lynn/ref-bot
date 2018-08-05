@@ -1,0 +1,15 @@
+{
+  "name": "reference-bot",
+  "version": "1.0.0",
+  "description": "Chats in response to keywords.",
+  "main": "bot.js",
+  "author": "andrew-lynn",
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "express": "^4.16.3",
+    "http": "0.0.0"
+  },
+  "scripts": {
+    "start": "node bot.js"
+  }
+}
