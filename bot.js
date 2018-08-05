@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const http = require("http");
 const Discord = require("discord.js");
-const auth = require('./auth.json');
+//const auth = require('./auth.json');
 const client = new Discord.Client();
 
 app.set('port', (process.env.PORT || 5000));
@@ -45,4 +45,5 @@ setInterval(function() {
     http.get("https://ref-bot.herokuapp.com/");
 }, 300000);
 
-client.login(auth.token);
+console.log(process.env.TOKEN);
+client.login(process.env.TOKEN);
