@@ -42,7 +42,7 @@ client.on("message", (message) => {
 });
 
 setInterval(function() {
-    http.get("https://ref-bot.herokuapp.com/");
+    http.get("http://ref-bot.herokuapp.com/");
 }, 300000);
 
 console.log(process.env.TOKEN);
