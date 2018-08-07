@@ -26,7 +26,7 @@ client.on("ready", () => {
 });
 
 client.on("message", (message) => {
-  let scott = ["DADDY", "TRAVIS", "SCOTT", "ASTROWORLD", "FATHER", "GANG", "DADDIES", "TRAV"];
+  let scott = ["DADDY", "TRAVIS", "SCOTT", "ASTROWORLD", "FATHER", "GANG", "DADDIES", "TRAV"]
     , s_length = scott.length
     , msgcontent = message.content
     , msg = msgcontent.toUpperCase();
